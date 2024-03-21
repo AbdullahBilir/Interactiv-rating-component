@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+* {
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: var(--Very-Dark-Blue);
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(217, 12%, 63%);
+  --Medium-Grey: hsl(216, 12%, 54%);
+  --Dark-Blue: hsl(213, 19%, 18%);
+  --Very-Text-Dark-Blue: hsl(192, 15%, 20%);
+  --Orange: hsl(25, 97%, 53%);
+  --Very-Dark-Blue: hsl(216, 12%, 8%);
+  --Very-update-Text-Dark-Blue: hsl(195, 10%, 23%);
+}
+
+#root {
+  background-color: var(--Dark-Blue);
+  color: white;
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 2rem;
+  border-radius: 2rem;
+}
+
+.submit {
+  text-align: center;
+  margin-top: 1rem;
+  display: block;
+  cursor: pointer;
+  padding: 0.7rem 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  color: var(--White);
+  background-color: var(--Orange);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em !important;
+  transition: all 0.4s ease;
+  text-decoration: none;
+}
+
+.submit:hover {
+  background-color: var(--White);
+  color: var(--Orange);
+}
+
+.button-1 {
+  margin: 1rem 0;
+  margin-right: 0.9rem;
+  padding: 1rem 1.2rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--Very-Text-Dark-Blue);
+  opacity: 0.6;
+  color: white;
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.button-1:hover {
+  background-color: var(--Medium-Grey);
+  opacity: 1;
+}
+
+.active {
+  background-color: var(--Orange);
+  color: white;
+  opacity: 1;
+}
+
+.text {
+  color: var(--Grey);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: var(--Very-Text-Dark-Blue);
+  color: var(--Orange);
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.handtitle {
+  margin: 1rem 0;
+  padding: 0.4rem 1rem;
+  border-radius: 30px;
+  color: var(--Orange);
+  background-color: var(--Very-update-Text-Dark-Blue);
+  display: inline-block;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.h4 {
+  margin-top: 0.4rem;
+  margin-bottom: 0;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.text-user {
+  color: var(--Grey);
+  margin-top: 0.8rem;
+}
+
+.icon-user {
+  margin: 0.5rem 0;
+}
